@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+body 
+    {
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color: #49243E;
+    }
+#SELECCIONAR-MASCOTA
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+.titulo
+    {
+        font-family: "Honk", system-ui;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+            "MORF" 15,
+            "SHLN" 50;
+        font-size: xxx-large;
+        width: 310px;
+        height: 50px;
+        text-align: center;
+    }
+.subtitulo
+    {
+        /*color: rgb(211, 184, 211);*/
+        font-family: "Honk", system-ui;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+            "MORF" 15,
+            "SHLN" 50;
+        font-size: xxx-large;
+        /*font-size: 24px;*/
+        text-align: center;
+    }
+
+.tarjetas
+    {
+        display: flex;
+        gap: 10px;
+    }
+.tarjeta-mokepon
+    {
+        
+        width: 174px;
+        height: 152px;
+        background-color: #704264;;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        border-radius: 28px;
+        display: flex; /* alusion a flexbox */
+        justify-content: center;
+        align-items: center
+    }
+.tarjeta-mokepon img{
+    width: 90px;
+}
+#boton-mascota{
+    
+    border-radius: 39px;
+    width: 154px;
+    height: 37px;
+    background-color: transparent;
+    border: 2px solid #BB8493;
+    margin-top: 30px;
+    color: rgb(211, 184, 211);
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.titulo2
+    {
+        font-family: "Honk", system-ui;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+            "MORF" 15,
+            "SHLN" 50;
+        font-size: xxx-large;
+        width: 310px;
+        height: 50px;
+        text-align: center;
+        
+    }
+#SELECCIONAR-ATAQUE{
+    
+    flex-direction: column;
+    align-items: center;
+}
+.boton-de-ataque{
+   
+    background-color: #704264;;
+    border-radius: 20px;
+    color: aliceblue;
+    height: 62px;
+    width: 107px
+}
+.boton-de-ataque img{
+    height: 33px;
+    width: 39px;
+}
+p{
+    font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style:large;
+  font-size: medium;
+  color: aliceblue;
+
+}
+#Mensajes{
+    display: flex;
+    justify-content: center;
+    background-color: #772453;
+    width: 212px;
+    height: 83px;
+    border-radius: 29px;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+#boton-Reiniciar{
+    border:none;
+    color: white;
+    background-color: transparent;
+
+}
+.ataques{
+    width: 87px;
+    height: 164px;
+    background-color: #772453;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+#boton-Reiniciar{
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 20px;
+    background-color: #BC7FCD;
+    color: black;
+    font-family: 'Poetsen One'
+}

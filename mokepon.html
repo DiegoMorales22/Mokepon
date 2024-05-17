@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MOKEPON</title>
+    
+    <link rel="stylesheet" href="./styles.css">
+        <!--implemente la direccion de mi archivo de css--> 
+    <script src="./mokepon.js"></script>
+    
+</head>
+    <body>
+        <section  id="SELECCIONAR-MASCOTA">
+            <h1 class="titulo" >  mokepon  </h1>
+            <h2 class="subtitulo">ELIGE TU MASCOTA </h2>
+            
+            <div class="tarjetas">
+                <label class="tarjeta-mokepon" id="Leon" for="LEON">
+                    <p>LEON</p>
+                    <img src="./imagenes_Mokepon/Leon.png" alt="LEON">
+                    
+                </label>
+                <input type="radio" name="mascota" id="LEON"/>
+                
+                
+                <label class="tarjeta-mokepon" for="ELEFANTE">  
+                    <p>ELEFANTE</p>
+                    <img src="./imagenes_Mokepon/Elefante.png" alt="ELEFANTE" >
+                    
+                </label>
+                <input type="radio" name="mascota" id="ELEFANTE"/>
+
+                
+                <label class="tarjeta-mokepon" for="OSO-PANDA">   
+                    <p>OSO PANDA</p>
+                    <img src="./imagenes_Mokepon/Panda.png" alt="OSO PANDA"  >
+                    
+                </label> <!-- el for es para vincular el label con el input-->
+                <input type="radio" name="mascota" id="OSO-PANDA"/>
+            </div>    
+            
+                <button id="boton-mascota"> SELECCIONA </button>
+            
+                    
+        </section>
+    
+        <br>
+    
+        <section  id="SELECCIONAR-ATAQUE">
+            <h1 class="titulo2"> mokepon </h1>
+           
+            <h2 class="subtitulo">ELIGE TU ATAQUE</h2>
+            
+            <div>
+                <button id="boton-fuego" class="boton-de-ataque">  FUEGO <img src="./imagenes_Mokepon/fuego.png" width="42px" ></i></button>
+                <button id="boton-tierra" class="boton-de-ataque"> TIERRA <img src="./imagenes_Mokepon/tierra.png "width='58px'></i></button>
+                <button id="boton-agua" class="boton-de-ataque" > AGUA <img src="./imagenes_Mokepon/agua.png" width="39px"></button>
+            </div>
+            
+            <div id="Mensajes" >
+                    <p id="resultado"> MUCHA SUERTE </p>
+                    <section  id="REINICIAR">
+                        <button  id="boton-Reiniciar">REINICIAR</button>
+                    </section>
+            
+            </div>
+                
+                
+                
+                
+                <div class="ataques" id="ataque-Jugador"></div>
+                <div class="ataques" id="ataque-Enemigo"></div>
+                <p>TU MASCOTA  <span id="mascota-jugador"></span> TIENE <span id = "mascota_variable"> </span><span id="Vidas-jugador" class="vida-color"> 3 </span> VIDAS</p>
+                <p>LA MASCOTA ENEMIGA <span id="mascota-enemigo"> </span> TIENE <span id="vidas-enemigo" class="vida-color"> 3 </span> VIDAS</p>
+            
+        </section>    
+    </body>
+</html>
+     
